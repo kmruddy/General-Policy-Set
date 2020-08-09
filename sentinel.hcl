@@ -1,11 +1,7 @@
-policy "aws-costing" {
+policy "general-costing" {
     enforcement_level = "advisory"
 }
 
-policy "aws-time" {
-    enforcement_level = "advisory"
-}
-
-policy "aws-instance-type" {
+policy "general-time" {
     enforcement_level = "advisory"
 }
