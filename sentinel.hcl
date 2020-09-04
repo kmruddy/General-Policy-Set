@@ -3,5 +3,5 @@ policy "general-costing" {
 }
 
 policy "general-time" {
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
