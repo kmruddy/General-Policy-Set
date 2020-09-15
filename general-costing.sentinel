@@ -4,5 +4,5 @@ import "decimal"
 print("Checking to see if the proposed monthly cost is less than 10")
 
 main = rule {
-    decimal.new(tfrun.cost_estimate.proposed_monthly_cost).less_than(10)
+    decimal.new(tfrun.cost_estimate.proposed_monthly_cost).less_than(20)
 }
